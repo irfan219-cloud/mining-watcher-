@@ -1,0 +1,90 @@
+[
+  {
+    "timestamp": "2026-02-02T22:09:22.869769",
+    "detection": {
+      "confidence": 0.96,
+      "location": "Protected Forest Zone A",
+      "coordinates": {
+        "latitude": 12.3456,
+        "longitude": 78.9012
+      },
+      "timestamp": "2026-02-02T22:09:21.592008",
+      "image_path": "/detections/img_001.jpg",
+      "model": "YOLOv8"
+    },
+    "alert_result": {
+      "success": true,
+      "delivered": [
+        "+917810026278"
+      ],
+      "failed": [],
+      "total_sent": 1
+    }
+  },
+  {
+    "timestamp": "2026-02-02T22:09:29.282266",
+    "detection": {
+      "confidence": 0.98,
+      "location": "Illegal Quarry Zone",
+      "coordinates": {
+        "latitude": 34.5678,
+        "longitude": 90.1234
+      },
+      "timestamp": "2026-02-02T22:09:21.592027",
+      "image_path": "/detections/img_003.jpg",
+      "model": "YOLOv8"
+    },
+    "alert_result": {
+      "success": true,
+      "delivered": [
+        "+917810026278"
+      ],
+      "failed": [],
+      "total_sent": 1
+    }
+  },
+  {
+    "timestamp": "2026-02-02T22:14:43.274745",
+    "detection": {
+      "confidence": 0.99,
+      "location": "Test Location - System Check",
+      "coordinates": {
+        "latitude": 0.0,
+        "longitude": 0.0
+      },
+      "timestamp": "2026-02-02T22:14:41.480669"
+    },
+    "alert_result": {
+      "success": true,
+      "delivered": [
+        "+917810026278"
+      ],
+      "failed": [
+        "+919626351526"
+      ],
+      "total_sent": 1
+    }
+  },
+  {
+    "timestamp": "2026-03-25T21:38:34.422455",
+    "detection": {
+      "confidence": 0.96,
+      "location": "Protected Forest Zone - Sector A",
+      "coordinates": {
+        "latitude": 12.9716,
+        "longitude": 77.5946
+      },
+      "timestamp": "2026-03-25T21:38:30.495578",
+      "detectionId": "DET_2026_001",
+      "imageUrl": "https://example.com/detection_image.jpg"
+    },
+    "alert_result": {
+      "success": true,
+      "delivered": [
+        "+919626351526"
+      ],
+      "failed": [],
+      "total_sent": 1
+    }
+  }
+]
